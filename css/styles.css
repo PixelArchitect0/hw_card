@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+.card_container {
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 17px;
+    min-width: 150px;
+    max-width: 380px;
+}
+
+.date_container {
+    padding-bottom: 25px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: #f8f8f8;
+    background-image: url('../img/Cross.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border: none;
+    border-radius: 12px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.date_text {
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+}
+
+.list_events {
+    width: 100%;
+}
+
+.event {
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.event p {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.color_event_yellow {
+    background-color: #fff5cf;
+    border-left: 8px solid #ffd23f;
+}
+
+.color_event_blue {
+    background-color: #c8f2f8;
+    border-left: 8px solid #23cbe0;
+}
+
+.color_event_green {
+    background-color: #d1f1da;
+    border-left: 8px solid #4ac969;
+    margin-bottom: 5px;
+}
+
+.color_event_yellow:hover {
+    background-color: #FFE8A3;
+    text-decoration: underline;
+}
+.color_event_blue:hover{
+    background-color: rgb(162, 229, 236);
+    text-decoration: underline;
+}
+
+.color_event_green:hover {
+    background-color: rgb(174, 234, 193);
+    text-decoration: underline;
+}
